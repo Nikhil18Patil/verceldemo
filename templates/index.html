@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>External API Example</title>
+</head>
+<body>
+    <h1>Data from External API</h1>
+    <ul>
+        {% for person in people %}
+            <li>{{ person.name }} from {{ person.village }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
